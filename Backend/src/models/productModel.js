@@ -4,10 +4,8 @@ const productSchema=mongoose.Schema({
     title:{type:String},
     price:{type:String},
     rating:{type:String},
-    barand:{type:String},
+    brand:{type:String},
     image:{type:String},
-})
-
-const Product=mongoose.model("product",productSchema);
-
+});
+const Product=mongoose.model("products",productSchema);
 module.exports=Product;
